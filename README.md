@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# 3js-portfolio
-=======
 # Ganesh's Homepage
 
 <!-- [https://www.craftz.dog/](https://www.craftz.dog/) -->
