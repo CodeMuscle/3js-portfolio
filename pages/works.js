@@ -19,7 +19,7 @@ const Works = () => (
   <Layout title="Work">
     <Container mt={6}>
       <Heading as="h3" fontSize={20} mb={4}>
-        Work
+        Recent Work
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -70,13 +70,12 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
+        <Section delay={0.2}>
           <WorkGridItem id="spark" href="https://www.sparkdiagnostics.com/" thumbnail={thumbSpark} title="Spark Diagnostics">
-            A website of the elite app development and contracting agency based
-            in Austria
+            Advanced diagnostics service provider to test the most important fluids in life based in the US.
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        <Section delay={0.2}>
           <WorkGridItem
             id="neytt"
             thumbnail={thumbNeytt}
@@ -85,33 +84,33 @@ const Works = () => (
             The mode magazine for understanding to personally enjoy Japan
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        <Section delay={0.2}>
           <WorkGridItem id="smartshift" thumbnail={thumbSmartshift} title="smartShift ">
             A VR Creative tools for fashion brands
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        <Section delay={0.2}>
           <WorkGridItem id="brillio" thumbnail={thumbBrillio} title="Brillio">
             A VR Creative tools for fashion brands
           </WorkGridItem>
         </Section>
       </SimpleGrid>
 
-      <Section delay={0.4}>
+      <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Previous Work
+          Past Work
         </Heading>
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.5}>
+        <Section delay={0.3}>
           <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
             Twitter client app for iPhone Safari
           </WorkGridItem>
         </Section>
-        <Section delay={0.5}>
+        <Section delay={0.3}>
           <WorkGridItem
             id="freedbtagger"
             thumbnail={thumbFreeDBTagger}
@@ -120,7 +119,7 @@ const Works = () => (
             Automatic audio file tagging tool using FreeDB for Windows
           </WorkGridItem>
         </Section>
-        <Section delay={0.6}>
+        <Section delay={0.5}>
           <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
             P2P private file sharing tool with MSN Messenger integration for
             Windows
