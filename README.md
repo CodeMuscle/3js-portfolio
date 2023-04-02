@@ -1,6 +1,6 @@
 # Ganesh's Portfolio
 
-[Link]: (https://ganesh-portfolio-nine.vercel.app/)
+[Link](https://ganesh-portfolio-nine.vercel.app/)
 
 ## Stack
 
