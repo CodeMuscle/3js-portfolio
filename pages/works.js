@@ -7,17 +7,17 @@ import thumbInkdrop from '../public/images/works/React Dashboard.png'
 import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbMargelo from '../public/images/works/1671817498520.jpeg'
-import thumbModeTokyo from '../public/images/works/neytt.png'
-import thumbStyly from '../public/images/works/smartShiftLogo-Social.jpg'
-import brillio from '../public/images/works/brillio.png'
+import thumbSpark from '../public/images/works/Spark.png'
+import thumbNeytt from '../public/images/works/neytt.png'
+import thumbSmartshift from '../public/images/works/Smartshift.png'
+import thumbBrillio from '../public/images/works/brillio.png'
 import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
   <Layout title="Work">
-    <Container>
+    <Container mt={6}>
       <Heading as="h3" fontSize={20} mb={4}>
         Work
       </Heading>
@@ -29,9 +29,8 @@ const Works = () => (
             title="Admin Dashboard"
             thumbnail={thumbInkdrop}
           >
-            An admin panel having multi-funtionality to assess and visualize
-            statistical data in a pictorial form. [React, Material UI
-            5 and Data-Grid]
+            Assess and visualize
+            statistical data.
           </WorkGridItem>
         </Section>
         <Section>
@@ -72,7 +71,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="spark" href="https://www.sparkdiagnostics.com/" thumbnail={thumbMargelo} title="Spark Diagnostics">
+          <WorkGridItem id="spark" href="https://www.sparkdiagnostics.com/" thumbnail={thumbSpark} title="Spark Diagnostics">
             A website of the elite app development and contracting agency based
             in Austria
           </WorkGridItem>
@@ -80,19 +79,19 @@ const Works = () => (
         <Section delay={0.3}>
           <WorkGridItem
             id="neytt"
-            thumbnail={thumbModeTokyo}
+            thumbnail={thumbNeytt}
             title="Neytt"
           >
             The mode magazine for understanding to personally enjoy Japan
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="smartshift" thumbnail={thumbStyly} title="smartShift ">
+          <WorkGridItem id="smartshift" thumbnail={thumbSmartshift} title="smartShift ">
             A VR Creative tools for fashion brands
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="brillio" thumbnail={brillio} title="Brillio">
+          <WorkGridItem id="brillio" thumbnail={thumbBrillio} title="Brillio">
             A VR Creative tools for fashion brands
           </WorkGridItem>
         </Section>

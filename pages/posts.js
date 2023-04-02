@@ -14,7 +14,7 @@ import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.pn
 
 const Posts = () => (
   <Layout title="Posts">
-    <Container>
+    <Container mt={6}>
       <Heading as="h3" fontSize={20} mb={4}>
         Popular Posts
       </Heading>
