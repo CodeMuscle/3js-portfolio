@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoInstagram, IoLogoLinkedin, IoLogoMedium } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoLinkedin, IoLogoMedium, IoLogoTwitter } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/motiontodev.jpg'
 import thumbInkdrop from '../public/images/works/React Dashboard.png'
 import Image from 'next/image'
@@ -194,17 +194,17 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          {/* <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+          <ListItem>
+            <Link href="https://twitter.com/GaneshGovind7" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
+                colorScheme="purple"
+                leftIcon={<IoLogoTwitter />}
               >
-                @motiontodev
+                Twitter
               </Button>
             </Link>
-          </ListItem> */}
+          </ListItem>
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
