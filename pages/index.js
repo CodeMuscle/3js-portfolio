@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoLinkedin, IoLogoMedium } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/motiontodev.jpg'
 import thumbInkdrop from '../public/images/works/React Dashboard.png'
 import Image from 'next/image'
@@ -82,14 +82,14 @@ const Home = () => (
         </Heading>
         <Paragraph>
           I&apos;m a freelancer and a front-end developer based in India with a
-          passion for building digital services/stuff I like. <br /> I find ways to
+          passion for building digital services/apps that I like. <br /> I find ways to
           bring innovation in building products, from planning and designing to solving
           real-life problems with code. When not online, I love hanging out
           with my camera. <br />
           {/* <Link as={NextLink} href="/works/dashboard" passHref scroll={false}>
           Admin Dashboard
           </Link> */}
-          I publish content to share knowledge on my Instagram page
+          I share knowledge by publishing content on my Instagram page
           &quot;
           <Link
             as={NextLink}
@@ -124,7 +124,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Completed B.E in Computer Science at SRM, Trichy
+          Bachelors in Computer Science at SRM, Trichy
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
@@ -165,7 +165,7 @@ const Home = () => (
                 colorScheme="purple"
                 leftIcon={<IoLogoInstagram />}
               >
-                @b1urry.7ace
+                Instagram
               </Button>
             </Link>
           </ListItem>
@@ -179,21 +179,21 @@ const Home = () => (
                 colorScheme="purple"
                 leftIcon={<IoLogoLinkedin />}
               >
-                @ganeshgovind21
+                LinkedIn
               </Button>
             </Link>
           </ListItem>
-          {/* <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+          <ListItem>
+            <Link href="https://medium.com/@ganeshgovind11" target="_blank">
               <Button
                 variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                colorScheme="purple"
+                leftIcon={<IoLogoMedium />}
               >
-                @craftzdog (日本語)
+                Medium
               </Button>
             </Link>
-          </ListItem> */}
+          </ListItem>
           {/* <ListItem>
             <Link href="https://instagram.com/craftzdog" target="_blank">
               <Button
