@@ -11,9 +11,9 @@ import thumbSpark from '../public/images/works/Spark.png'
 import thumbNeytt from '../public/images/works/neytt.png'
 import thumbSmartshift from '../public/images/works/Smartshift.png'
 import thumbBrillio from '../public/images/works/brillio.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+// import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
+// import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
+// import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
   <Layout title="Work">
