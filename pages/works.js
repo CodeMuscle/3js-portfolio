@@ -3,15 +3,15 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/React Dashboard.png'
+import thumbInkdrop from '../public/images/works/MetricsHub.png'
 import thumbWalknote from '../public/images/works/techcube.png'
 import thumbFourPainters from '../public/images/works/pinit.png'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
+import thumbMenkiki from '../public/images/works/mintverse.png'
 import thumbSpark from '../public/images/works/Spark.png'
 import thumbNeytt from '../public/images/works/neytt.png'
 import thumbSmartshift from '../public/images/works/Smartshift.png'
 import thumbBrillio from '../public/images/works/brillio.png'
-// import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
+import thumbPichu2 from '../public/images/works/EHR.png'
 // import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 // import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
@@ -26,11 +26,10 @@ const Works = () => (
         <Section>
           <WorkGridItem
             id="inkdrop"
-            title="Admin Dashboard"
+            title="Metrics Hub"
             thumbnail={thumbInkdrop}
           >
-            Assess and visualize
-            statistical data.
+            React - MUI5
           </WorkGridItem>
         </Section>
         <Section>
@@ -39,7 +38,7 @@ const Works = () => (
             title="TechCube"
             thumbnail={thumbWalknote}
           >
-            Gadgets store built using Next.js
+            Next.js - Stripe
           </WorkGridItem>
         </Section>
 
@@ -49,13 +48,12 @@ const Works = () => (
             title="PinIt"
             thumbnail={thumbFourPainters}
           >
-            A Pinterest clone
+            React - OAuth
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem id="mintverse" thumbnail={thumbMenkiki} title="Mintverse">
+            React - Web3
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -103,13 +101,13 @@ const Works = () => (
         </Heading>
       </Section>
 
-      {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
+          <WorkGridItem id="ehr" thumbnail={thumbPichu2} title="EHR 2.0">
+            Solidity - IPFS
           </WorkGridItem>
         </Section>
-        <Section delay={0.3}>
+        {/* <Section delay={0.3}>
           <WorkGridItem
             id="freedbtagger"
             thumbnail={thumbFreeDBTagger}
@@ -117,14 +115,14 @@ const Works = () => (
           >
             Automatic audio file tagging tool using FreeDB for Windows
           </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
+        </Section> */}
+        {/* <Section delay={0.5}>
           <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
             P2P private file sharing tool with MSN Messenger integration for
             Windows
           </WorkGridItem>
-        </Section>
-      </SimpleGrid> */}
+        </Section> */}
+      </SimpleGrid>
     </Container>
   </Layout>
 )

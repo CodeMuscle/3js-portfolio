@@ -18,8 +18,9 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoLinkedin, IoLogoMedium, IoLogoTwitter } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/motiontodev.jpg'
-import thumbInkdrop from '../public/images/works/React Dashboard.png'
+// import thumbYouTube from '../public/images/links/motiontodev.jpg'
+import thumbMenkiki from '../public/images/works/mintverse.png'
+import thumbInkdrop from '../public/images/works/MetricsHub - 1.png'
 import Image from 'next/image'
 // import ButtonMailto from '../components/mail';
 
@@ -210,17 +211,17 @@ const Home = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://www.instagram.com/motiontodev/"
-            title="MotionToDev"
-            thumbnail={thumbYouTube}
+            title="Mintverse"
+            thumbnail={thumbMenkiki}
           >
-            My Instagram Page
+            React - Web3
           </GridItem>
           <GridItem
             href="https://dashboard-front-react.netlify.app/"
-            title="Admin Dashboard"
+            title="MetricsHub"
             thumbnail={thumbInkdrop}
           >
-            React, MUI 5 and Data-Grid
+            React - MUI5
           </GridItem>
         </SimpleGrid>
 
