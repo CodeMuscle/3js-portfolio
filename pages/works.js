@@ -4,8 +4,8 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbInkdrop from '../public/images/works/React Dashboard.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
+import thumbWalknote from '../public/images/works/techcube.png'
+import thumbFourPainters from '../public/images/works/pinit.png'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbSpark from '../public/images/works/Spark.png'
 import thumbNeytt from '../public/images/works/neytt.png'
@@ -35,22 +35,21 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
+            id="techcube"
+            title="TechCube"
             thumbnail={thumbWalknote}
           >
-            Music recommendation app for iOS
+            Gadgets store built using Next.js
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
+            id="pinit"
+            title="PinIt"
             thumbnail={thumbFourPainters}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            A Pinterest clone
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
@@ -81,17 +80,17 @@ const Works = () => (
             thumbnail={thumbNeytt}
             title="Neytt"
           >
-            The mode magazine for understanding to personally enjoy Japan
+            High-fashion brand weaving stories through rugs & carpets.
           </WorkGridItem>
         </Section>
         <Section delay={0.2}>
           <WorkGridItem id="smartshift" thumbnail={thumbSmartshift} title="smartShift ">
-            A VR Creative tools for fashion brands
+          smartShift Technologies is a leader in SAP automation, Cloud Transformation and Cloud Migration.
           </WorkGridItem>
         </Section>
         <Section delay={0.2}>
           <WorkGridItem id="brillio" thumbnail={thumbBrillio} title="Brillio">
-            A VR Creative tools for fashion brands
+            Brillio is a company focused on digital technologies and big data analytics
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -104,7 +103,7 @@ const Works = () => (
         </Heading>
       </Section>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
             Twitter client app for iPhone Safari
@@ -125,7 +124,7 @@ const Works = () => (
             Windows
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
     </Container>
   </Layout>
 )
