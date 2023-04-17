@@ -210,7 +210,7 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.instagram.com/motiontodev/"
+            href="https://cryptoket-v2.vercel.app/"
             title="Mintverse"
             thumbnail={thumbMenkiki}
           >
