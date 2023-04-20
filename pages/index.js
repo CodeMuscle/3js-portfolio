@@ -16,11 +16,11 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+// import { GridItem } from '../components/grid-item'
 import { IoLogoInstagram, IoLogoLinkedin, IoLogoMedium, IoLogoTwitter } from 'react-icons/io5'
 // import thumbYouTube from '../public/images/links/motiontodev.jpg'
-import thumbMenkiki from '../public/images/works/mintverse.png'
-import thumbInkdrop from '../public/images/works/MetricsHub - 1.png'
+// import thumbMenkiki from '../public/images/works/mintverse.png'
+// import thumbInkdrop from '../public/images/works/MetricsHub - 1.png'
 import Image from 'next/image'
 // import ButtonMailto from '../components/mail';
 
@@ -48,7 +48,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Ganesh Govind
           </Heading>
-          <p>Web Developer ( Figma | React | Node )</p>
+          <p>Web Developer (React | Node)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -79,7 +79,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About Me
         </Heading>
         <Paragraph>
           I&apos;m a freelancer and a front-end developer based in India with a
@@ -110,7 +110,7 @@ const Home = () => (
             rightIcon={<ChevronRightIcon />}
             colorScheme="purple"
           >
-            My portfolio
+            View my work
           </Button>
         </Box>
       </Section>
@@ -121,7 +121,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2000</BioYear>
-          Born in TN, India.
+          Born and raised in TN, India.
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
@@ -208,7 +208,7 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+        {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
             href="https://cryptoket-v2.vercel.app/"
             title="Mintverse"
@@ -223,7 +223,7 @@ const Home = () => (
           >
             React - MUI5
           </GridItem>
-        </SimpleGrid>
+        </SimpleGrid> */}
 
         {/* <Heading as="h3" variant="section-title">
           Newsletter
