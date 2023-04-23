@@ -24,10 +24,10 @@ const Work = () => (
         Techcube is your go to website to purchase gadgets of your choice. Built using React and Next.js, it extremely fasta nd responsive. Payments are also accepted using the integration of Stripe.
       </P>
       <List ml={4} my={4}>
-        {/* <ListItem>
+        <ListItem>
           <Meta>Platform</Meta>
-          <span>WebApp</span>
-        </ListItem> */}
+          <span>Web</span>
+        </ListItem>
         <ListItem>
           <Meta>Demo</Meta>
           <Link href="https://ecommerce-sanity-iazhel55f-codemuscle.vercel.app/">

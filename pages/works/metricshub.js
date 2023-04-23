@@ -27,10 +27,10 @@ const Work = () => (
           https://dashboard-front-react.netlify.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-        {/* <ListItem>
+        <ListItem>
           <Meta>Platform</Meta>
-          <span>WebApp</span>
-        </ListItem> */}
+          <span>Web</span>
+        </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
           <span>React, MUI, DataGrid</span>

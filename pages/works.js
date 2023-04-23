@@ -107,21 +107,7 @@ const Works = () => (
             Solidity - IPFS
           </WorkGridItem>
         </Section>
-        {/* <Section delay={0.3}>
-          <WorkGridItem
-            id="freedbtagger"
-            thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
-          >
-            Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
-        </Section> */}
-        {/* <Section delay={0.5}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
-          </WorkGridItem>
-        </Section> */}
+
       </SimpleGrid>
     </Container>
   </Layout>

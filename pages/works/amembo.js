@@ -54,11 +54,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows 2000/XP</span>
+          <span>Web</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Delphi</span>
+          <span>Next.js</span>
         </ListItem>
         <ListItem>
           <Meta>Download</Meta>

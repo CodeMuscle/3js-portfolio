@@ -23,6 +23,10 @@ const Work = () => (
 
       <List ml={4} my={4}>
         <ListItem>
+          <Meta>Platform</Meta>
+          <span>Web</span>
+        </ListItem>
+        <ListItem>
           <Meta>Website</Meta>
           <span>
             <Link href="www.neytt.com" target="_blank">
