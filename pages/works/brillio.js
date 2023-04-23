@@ -4,69 +4,46 @@ import {
   Link,
   List,
   ListItem,
-  UnorderedList,
+  // UnorderedList,
   Heading,
   Center,
-  Image
+  // Image
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+// import { ExternalLinkIcon } from '@chakra-ui/icons';
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="freeDBTagger">
+  <Layout title="Brillio">
     <Container>
       <Title>
-        freeDBTagger <Badge>2004-2009</Badge>
+        Brillio <Badge>2022</Badge>
       </Title>
-      <Center my={6}>
-        <Image src="/images/works/freedbtagger_icon.gif" alt="icon" />
-      </Center>
       <P>Automatic audio file tagging tool using FreeDB for Windows</P>
-      <P>楽曲長の組み合わせでアルバムを特定して楽曲情報を自動入力</P>
-      <P>
-        アルバム内楽曲の再生時間の組み合わせで、CDDBサーバー“freeDB.org”を検索してアルバムを特定、楽曲情報を取得できるID3タグ一括編集ソフト。本ソフトを起動し、読み込んだアルバム1枚分の音楽ファイルの曲順を整えて［アルバム検索］を実行すれば、あとは本ソフトが、オープンソースで運営されているCDDBサーバー“freeDB.org”で再生時間の組み合わせからアルバムを特定して、アルバム名や曲名、アーチスト名などの情報を取得してくれる。MP3/WMA/Ogg
-        Vorbis/AAC/Monkey&apos;s Audio/MPEGplus/FLAC/Twin
-        VQ/WavPackファイルの楽曲情報を取得・編集できるほか、CDAファイルの楽曲情報を表示可能。MP3ファイルのタグに登録する場合のタグ形式は、ID3v1・ID3v2に対応しており、設定画面で選択可能。タグ項目内の文字数が30文字以上の場合のみ、ID3v2に登録する機能も備えている。
-      </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows 2000/XP</span>
+          <span>Web</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Delphi</span>
+          <span>Wordpress, MySQL, PHP, Bootstrap, Anime,js </span>
         </ListItem>
         <ListItem>
-          <Meta>Download</Meta>
-          <Link href="http://odoruinu.net.s3.amazonaws.com/software/freedbtagger/fdbt105.zip">
-            v1.0.5
+          <Meta>Website</Meta>
+          <Link href="https://www.brillio.com/">
+            Brillio
           </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Last update</Meta>
-          <span>2009/02/16</span>
         </ListItem>
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Screenshots</Center>
       </Heading>
 
-      <UnorderedList my={4}>
-        <ListItem>
-          <Link href="https://forest.watch.impress.co.jp/article/2005/02/01/freedbtagger.html">
-            <Badge mr={2}>窓の杜</Badge>
-            再生時間の組み合わせでアルバムを特定して楽曲情報を取得「freeDBTagger」{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-      </UnorderedList>
-
-      <Heading as="h4" fontSize={16} my={6}>
+      {/* <Heading as="h4" fontSize={16} my={6}>
         <Center>
           User reviews&nbsp;
           <Link
@@ -76,8 +53,8 @@ const Work = () => (
             from Vector
           </Link>
         </Center>
-      </Heading>
-
+      </Heading> */}
+{/* 
       <UnorderedList my={4}>
         <ListItem>
           <Badge mr={2}>FLACにも対応 - よーすけさん</Badge>
@@ -115,9 +92,12 @@ const Work = () => (
             ただ、ほんのちょっと不安定さを感じたので４つ...
           </span>
         </ListItem>
-      </UnorderedList>
+      </UnorderedList> */}
 
-      <WorkImage src="/images/works/freedbtagger_01.jpg" alt="freeDBTagger" />
+      <WorkImage src="/images/works/brillio-1.png" alt="brillio" />
+      <WorkImage src="/images/works/brillio-2.png" alt="brillio" />
+      <WorkImage src="/images/works/brillio-3.png" alt="brillio" />
+      <WorkImage src="/images/works/brillio-4.png" alt="brillio" />
     </Container>
   </Layout>
 )

@@ -4,7 +4,7 @@ import {
   Link,
   List,
   ListItem,
-  UnorderedList,
+  // UnorderedList,
   Heading,
   Center
 } from '@chakra-ui/react'
@@ -14,33 +14,34 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="pichu*pichu">
+  <Layout title="Spark Diagnostics">
     <Container>
       <Title>
-        pichu*pichu <Badge>2010</Badge>
+        Spark Diagnostics <Badge>2022</Badge>
       </Title>
       <P>
-        A Twitter client app for iPhone Safari, made in the iPhone 3GS era. I
-        built it for my research work at a graduate school. Got over 2,000
-        users.
+        I had a change to work with Spark Diagnostics to curate a website according to their requirements
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>iPhone Safari</span>
+          <span>Web</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>PHP, jQuery, MySQL</span>
+          <span>Webflow, Lottie, GSAP</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Website</Meta>
+          <Link href="https://www.sparkdiagnostics.com/" target="_blank">
+            Spark Diagnostics
+            <ExternalLinkIcon mx="2px" />
+          </Link>
         </ListItem>
       </List>
 
-      <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
-      </Heading>
-
-      <UnorderedList my={4}>
+      {/* <UnorderedList my={4}>
         <ListItem>
           <Link href="http://www.donpy.net/standard-entry/app-reiview/4303.html">
             <Badge mr={2}>覚醒する @CDiP</Badge>
@@ -56,10 +57,17 @@ const Work = () => (
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-      </UnorderedList>
+      </UnorderedList> */}
 
-      <WorkImage src="/images/works/pichu2_eyecatch.png" alt="Pichu*Pichu" />
-      <WorkImage src="/images/works/pichu2_01.png" alt="Pichu*Pichu" />
+      <Heading as="h4" fontSize={16} my={6}>
+        <Center>Screenshots</Center>
+      </Heading>
+
+      <WorkImage src="/images/works/spark-1.png" alt="Spark" />
+      <WorkImage src="/images/works/spark-2.png" alt="Spark" />
+      <WorkImage src="/images/works/spark-3.png" alt="Spark" />
+      <WorkImage src="/images/works/spark-4.png" alt="Spark" />
+      <WorkImage src="/images/works/spark-5.png" alt="Spark" />
     </Container>
   </Layout>
 )

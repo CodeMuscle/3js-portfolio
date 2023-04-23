@@ -5,7 +5,7 @@ import {
   List,
   ListItem,
   SimpleGrid,
-  UnorderedList,
+  // UnorderedList,
   Heading,
   Center
 } from '@chakra-ui/react'
@@ -15,43 +15,37 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="walknote">
+  <Layout title="TechCube">
     <Container>
       <Title>
-        walknote <Badge>2011-2016</Badge>
+        Techcube <Badge>2022</Badge>
       </Title>
       <P>
-        walknote recommends new music you may like based on your music
-        preferences by recognizing your favorite songs stored in your device.
-        You can listen to recommended music just like a radio!
-      </P>
-      <P>
-        This service has been closed. Thank you for over 130,000 registered
-        users!
+        Techcube is your go to website to purchase gadgets of your choice. Built using React and Next.js, it extremely fasta nd responsive. Payments are also accepted using the integration of Stripe.
       </P>
       <List ml={4} my={4}>
-        <ListItem>
+        {/* <ListItem>
           <Meta>Platform</Meta>
-          <span>iOS</span>
-        </ListItem>
+          <span>WebApp</span>
+        </ListItem> */}
         <ListItem>
-          <Meta>Blogpost</Meta>
-          <Link href="https://archive.craftz.dog/blog.odoruinu.net/2016/09/06/farewell-from-walknote/">
-            音楽発掘アプリwalknoteクローズのお知らせ{' '}
+          <Meta>Demo</Meta>
+          <Link href="https://ecommerce-sanity-iazhel55f-codemuscle.vercel.app/">
+              Techcube
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Objective-C, PHP, MongoDB</span>
+          <span>React, Next.js, Node.js, Stripe</span>
         </ListItem>
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
+        <Center>Screenshots</Center>
       </Heading>
 
-      <UnorderedList my={4}>
+      {/* <UnorderedList my={4}>
         <ListItem>
           <Link href="http://renewal49.hateblo.jp/entry/20120710/1341925681">
             <Badge mr={2}>リニューアル式</Badge>
@@ -84,15 +78,16 @@ const Work = () => (
           </Link>
           <ExternalLinkIcon mx="2px" />
         </ListItem>
-      </UnorderedList>
+      </UnorderedList> */}
 
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/walknote_01.png" alt="walknote" />
-        <WorkImage src="/images/works/walknote_02.png" alt="walknote" />
+        <WorkImage src="/images/works/techcube-1.png" alt="techcube" />
+        <WorkImage src="/images/works/techcube-2.png" alt="techcube" />
       </SimpleGrid>
-      <WorkImage src="/images/works/walknote_03.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_04.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_05.png" alt="walknote" />
+      <WorkImage src="/images/works/techcube-3.png" alt="techcube" />
+      <WorkImage src="/images/works/techcube-4.png" alt="techcube" />
+      <WorkImage src="/images/works/techcube-5.png" alt="techcube" />
+      <WorkImage src="/images/works/techcube-6.png" alt="techcube" />
     </Container>
   </Layout>
 )

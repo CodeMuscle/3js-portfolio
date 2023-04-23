@@ -4,7 +4,7 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio
+  // AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -12,15 +12,15 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="STYLY">
+  <Layout title="PIN IT">
     <Container>
       <Title>
-        STYLY <Badge>2017</Badge>
+        PIN IT <Badge>2022</Badge>
       </Title>
       <P>
-        STYLY Studio is a creative tool for VR, allowing you to build virtual
-        spaces towards extending fashion brand&apos;s expression ability of
-        their concept. I built its web UI and backend.
+        PIN-IT is a Pinterest clone which has Google Authorisation, Upload and Categorization of images. 
+        It works like social media app where we can view, save (bookmark) and download images posted by anyone in the app.
+        A user can also comment on the images as per their requirement.
       </P>
 
       <List ml={4} my={4}>
@@ -30,17 +30,17 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>React, PHP</span>
+          <span>React, TailwindCSS, OAuth</span>
         </ListItem>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://styly.cc/">
-            STYLY <ExternalLinkIcon mx="2px" />
+          <Link href="https://pinitfinal.netlify.app/">
+            PinIt <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
 
-      <AspectRatio maxW="640px" ratio={1.7} my={4}>
+      {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="https://www.youtube.com/embed/YLdHAggLBCw"
           title="YouTube video player"
@@ -48,12 +48,14 @@ const Work = () => (
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-      </AspectRatio>
+      </AspectRatio> */}
 
-      <WorkImage src="/images/works/styly_eyecatch.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_01.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_02.png" alt="STYLY" />
-      <WorkImage src="/images/works/styly_03.png" alt="STYLY" />
+      <WorkImage src="/images/works/pinit-1.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-2.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-3.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-4.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-5.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-6.png" alt="PINIT" />
     </Container>
   </Layout>
 )

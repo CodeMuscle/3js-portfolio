@@ -3,10 +3,10 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/MetricsHub.png'
-import thumbWalknote from '../public/images/works/techcube.png'
-import thumbFourPainters from '../public/images/works/pinit.png'
-import thumbMenkiki from '../public/images/works/mintverse.png'
+import thumbMetricsHub from '../public/images/works/MetricsHub.png'
+import thumbTechCube from '../public/images/works/techcube.png'
+import thumbPinIt from '../public/images/works/pinit.png'
+import thumbMintverse from '../public/images/works/mintverse.png'
 import thumbSpark from '../public/images/works/Spark.png'
 import thumbNeytt from '../public/images/works/neytt.png'
 import thumbSmartshift from '../public/images/works/Smartshift.png'
@@ -25,9 +25,9 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem
-            id="inkdrop"
+            id="metricshub"
             title="Metrics Hub"
-            thumbnail={thumbInkdrop}
+            thumbnail={thumbMetricsHub}
           >
             React - MUI5
           </WorkGridItem>
@@ -36,7 +36,7 @@ const Works = () => (
           <WorkGridItem
             id="techcube"
             title="TechCube"
-            thumbnail={thumbWalknote}
+            thumbnail={thumbTechCube}
           >
             Next.js - Stripe
           </WorkGridItem>
@@ -46,13 +46,13 @@ const Works = () => (
           <WorkGridItem
             id="pinit"
             title="PinIt"
-            thumbnail={thumbFourPainters}
+            thumbnail={thumbPinIt}
           >
             React - OAuth
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="mintverse" thumbnail={thumbMenkiki} title="Mintverse">
+          <WorkGridItem id="mintverse" thumbnail={thumbMintverse} title="Mintverse">
             React - Web3
           </WorkGridItem>
         </Section>
@@ -82,7 +82,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.2}>
-          <WorkGridItem id="smartshift" thumbnail={thumbSmartshift} title="smartShift ">
+          <WorkGridItem id="smartshift" href="https://smartshift.com/" target="_blank" thumbnail={thumbSmartshift} title="smartShift ">
           smartShift Technologies is a leader in SAP automation, Cloud Transformation and Cloud Migration.
           </WorkGridItem>
         </Section>
