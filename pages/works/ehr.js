@@ -14,6 +14,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
+
 const Work = () => (
   <Layout title="EHR 2.0">
     <Container>
@@ -70,35 +71,6 @@ const Work = () => (
       <Heading as="h4" fontSize={16} my={6}>
         <Center>Screenshots</Center>
       </Heading>
-
-      {/* <UnorderedList my={4}>
-        <ListItem>
-          <Link href="https://news.ycombinator.com/item?id=10782289">
-            <Badge mr={2}>Hacker News</Badge>
-            The Four Painters: A Video Work Created with Deep Learning
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-
-        <ListItem>
-          <Link href="https://gigazine.net/news/20151224-deep-learning-four-painters/">
-            <Badge mr={2}>Gigazine</Badge>
-            実写映像を人工知能「ディープラーニング」でゴッホや葛飾北斎っぽく変換した「the
-            four painters」
-            <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-      </UnorderedList> */}
-
-      {/* <Box>
-        <iframe
-          src="https://drive.google.com/file/d/1XsD0nkrXIW5qNopMjwnROr6BZYUBrTQK/view"
-          width="100%"
-          height="400"
-          frameBorder="0"
-          allowFullScreen
-        />
-      </Box> */}
 
       {/* <WorkImage src="/images/works/uml.jpeg" alt="ehr" />
       <WorkImage src="/images/works/activity.png" alt="ehr" />
