@@ -63,11 +63,11 @@ const Work = () => (
         <Center>Screenshots</Center>
       </Heading>
 
-      <WorkImage src="/images/works/spark-1.png" alt="Spark" />
-      <WorkImage src="/images/works/spark-2.png" alt="Spark" />
-      <WorkImage src="/images/works/spark-3.png" alt="Spark" />
-      <WorkImage src="/images/works/spark-4.png" alt="Spark" />
-      <WorkImage src="/images/works/spark-5.png" alt="Spark" />
+      <WorkImage src="/images/works/spark-1-min.png" alt="Spark" />
+      <WorkImage src="/images/works/spark-2-min.png" alt="Spark" />
+      <WorkImage src="/images/works/spark-3-min.png" alt="Spark" />
+      <WorkImage src="/images/works/spark-4-min.png" alt="Spark" />
+      <WorkImage src="/images/works/spark-5-min.png" alt="Spark" />
     </Container>
   </Layout>
 )

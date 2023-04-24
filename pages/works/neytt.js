@@ -59,11 +59,11 @@ const Work = () => (
         ></iframe>
       </AspectRatio> */}
 
-      <WorkImage src="/images/works/neytt-1.png" alt="neytt" />
-      <WorkImage src="/images/works/neytt-2.png" alt="neytt" />
-      <WorkImage src="/images/works/neytt-3.png" alt="neytt" />
-      <WorkImage src="/images/works/neytt-4.png" alt="neytt" />
-      <WorkImage src="/images/works/neytt-5.png" alt="neytt" />
+      <WorkImage src="/images/works/neytt-1-min.png" alt="neytt" />
+      <WorkImage src="/images/works/neytt-2-min.png" alt="neytt" />
+      <WorkImage src="/images/works/neytt-3-min.png" alt="neytt" />
+      <WorkImage src="/images/works/neytt-4-min.png" alt="neytt" />
+      <WorkImage src="/images/works/neytt-5v.png" alt="neytt" />
     </Container>
   </Layout>
 )

@@ -43,10 +43,10 @@ const Work = () => (
         <Center>Screenshots</Center>
       </Heading>
 
-      <WorkImage src="/images/works/brillio-1.png" alt="brillio" />
-      <WorkImage src="/images/works/brillio-2.png" alt="brillio" />
-      <WorkImage src="/images/works/brillio-3.png" alt="brillio" />
-      <WorkImage src="/images/works/brillio-4.png" alt="brillio" />
+      <WorkImage src="/images/works/brillio-1-min.png" alt="brillio" />
+      <WorkImage src="/images/works/brillio-2-min.png" alt="brillio" />
+      <WorkImage src="/images/works/brillio-3-min.png" alt="brillio" />
+      <WorkImage src="/images/works/brillio-4-min.png" alt="brillio" />
     </Container>
   </Layout>
 )

@@ -50,12 +50,12 @@ const Work = () => (
         ></iframe>
       </AspectRatio> */}
 
-      <WorkImage src="/images/works/pinit-1.png" alt="PINIT" />
-      <WorkImage src="/images/works/pinit-2.png" alt="PINIT" />
-      <WorkImage src="/images/works/pinit-3.png" alt="PINIT" />
-      <WorkImage src="/images/works/pinit-4.png" alt="PINIT" />
-      <WorkImage src="/images/works/pinit-5.png" alt="PINIT" />
-      <WorkImage src="/images/works/pinit-6.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-1-min.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-2-min.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-3-min.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-4-min.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-5-min.png" alt="PINIT" />
+      <WorkImage src="/images/works/pinit-6-min.png" alt="PINIT" />
     </Container>
   </Layout>
 )

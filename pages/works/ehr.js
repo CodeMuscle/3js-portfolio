@@ -75,11 +75,11 @@ const Work = () => (
       {/* <WorkImage src="/images/works/uml.jpeg" alt="ehr" />
       <WorkImage src="/images/works/activity.png" alt="ehr" />
       <WorkImage src="/images/works/sequence.png" alt="ehr" /> */}
-      <WorkImage src="/images/works/ehr-1.jpg" alt="ehr" />
-      <WorkImage src="/images/works/ehr-2.png" alt="ehr" />
-      <WorkImage src="/images/works/ehr-3.png" alt="ehr" />
-      <WorkImage src="/images/works/ehr-4.png" alt="ehr" />
-      <WorkImage src="/images/works/ehr-5.png" alt="ehr" />
+      <WorkImage src="/images/works/ehr-1-min.jpg" alt="ehr" />
+      <WorkImage src="/images/works/ehr-2-min.png" alt="ehr" />
+      <WorkImage src="/images/works/ehr-3-min.png" alt="ehr" />
+      <WorkImage src="/images/works/ehr-4-min.png" alt="ehr" />
+      <WorkImage src="/images/works/ehr-5-min.png" alt="ehr" />
     </Container>
   </Layout>
 )

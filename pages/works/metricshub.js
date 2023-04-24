@@ -43,9 +43,9 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/dashboard-1.png" alt="metricshub" />
-      <WorkImage src="/images/works/dashboard-2.png" alt="metricshub" />
-      <WorkImage src="/images/works/dashboard-3.png" alt="metricshub" />
+      <WorkImage src="/images/works/dashboard-1-min.png" alt="metricshub" />
+      <WorkImage src="/images/works/dashboard-2-min.png" alt="metricshub" />
+      <WorkImage src="/images/works/dashboard-3-min.png" alt="metricshub" />
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="https://www.youtube.com/embed/-qBavwqc_mY"

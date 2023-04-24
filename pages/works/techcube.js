@@ -81,13 +81,13 @@ const Work = () => (
       </UnorderedList> */}
 
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/techcube-1.png" alt="techcube" />
-        <WorkImage src="/images/works/techcube-2.png" alt="techcube" />
+        <WorkImage src="/images/works/techcube-1-min.png" alt="techcube" />
+        <WorkImage src="/images/works/techcube-2-min.png" alt="techcube" />
       </SimpleGrid>
-      <WorkImage src="/images/works/techcube-3.png" alt="techcube" />
-      <WorkImage src="/images/works/techcube-4.png" alt="techcube" />
-      <WorkImage src="/images/works/techcube-5.png" alt="techcube" />
-      <WorkImage src="/images/works/techcube-6.png" alt="techcube" />
+      <WorkImage src="/images/works/techcube-3-min.png" alt="techcube" />
+      <WorkImage src="/images/works/techcube-4-min.png" alt="techcube" />
+      <WorkImage src="/images/works/techcube-5-min.png" alt="techcube" />
+      <WorkImage src="/images/works/techcube-6-min.png" alt="techcube" />
     </Container>
   </Layout>
 )

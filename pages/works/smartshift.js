@@ -74,14 +74,14 @@ const Work = () => (
         </Link>
       </Box> */}
 
-      <WorkImage src="/images/works/smartshift-1.png" alt="smartShift" />
+      <WorkImage src="/images/works/smartshift-1-min.png" alt="smartShift" />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/smartshift-2.png" alt="smartShift" />
-        <WorkImage src="/images/works/smartshift-3.png" alt="smartShift" />
+        <WorkImage src="/images/works/smartshift-2-min.png" alt="smartShift" />
+        <WorkImage src="/images/works/smartshift-3-min.png" alt="smartShift" />
       </SimpleGrid>
-      <WorkImage src="/images/works/smartshift-4.png" alt="smartShift" />
-      <WorkImage src="/images/works/smartshift-5.png" alt="smartShift" />
-      <WorkImage src="/images/works/smartshift-6.png" alt="smartShift" />
+      <WorkImage src="/images/works/smartshift-4-min.png" alt="smartShift" />
+      <WorkImage src="/images/works/smartshift-5-min.png" alt="smartShift" />
+      <WorkImage src="/images/works/smartshift-6-min.png" alt="smartShift" />
     </Container>
   </Layout>
 )
