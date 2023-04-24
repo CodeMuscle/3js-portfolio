@@ -63,7 +63,7 @@ const Work = () => (
       <WorkImage src="/images/works/neytt-2-min.png" alt="neytt" />
       <WorkImage src="/images/works/neytt-3-min.png" alt="neytt" />
       <WorkImage src="/images/works/neytt-4-min.png" alt="neytt" />
-      <WorkImage src="/images/works/neytt-5v.png" alt="neytt" />
+      <WorkImage src="/images/works/neytt-5-min.png" alt="neytt" />
     </Container>
   </Layout>
 )
