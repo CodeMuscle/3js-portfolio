@@ -8,7 +8,7 @@ import { GridItem } from '../components/grid-item'
 // import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
 // import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
 import thumb500PaidUsers from '../public/images/contents/SEN1.png'
-import thumbFinancialGoal from '../public/images/contents/blog-financial-goal.png'
+import thumbFinancialGoal from '../public/images/contents/lockednloaded.png'
 // import thumbHowToPriceYourself from '../public/images/contents/blog-how-to-price-yourself.jpg'
 // import thumb50xFaster from '../public/images/contents/youtube-50x-faster.jpg'
 
@@ -47,14 +47,14 @@ const Posts = () => (
       <Section delay={0.3}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            title="7 Essential Steps to Secure Your Ethereum Node"
+            title="7 Essential Steps To Secure Your Ethereum Node"
             thumbnail={thumb500PaidUsers}
             href="https://codemuscle.hashnode.dev/10-essential-steps-to-secure-your-ethereum-node"
           />
           <GridItem
-            title="I stopped setting a financial goal for my SaaS"
+            title="The Importance of App Authentication"
             thumbnail={thumbFinancialGoal}
-            href="https://blog.inkdrop.app/i-stopped-setting-a-financial-goal-for-my-saas-a92c3db65506"
+            href="https://codemuscle.hashnode.dev/locked-and-loaded-the-importance-of-app-authentication-in-todays-digital-world"
           />
         </SimpleGrid>
       </Section>
